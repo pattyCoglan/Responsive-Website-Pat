@@ -1,0 +1,33 @@
+/* 
+Color pallete. This section defines variables for the color pallete,
+so that we can refer to particular colors by name instead of hexadecimal values.
+This is applied to the 'root' psuedo-element, which just means that these color
+variables are available to be used anywhere in our html document
+*/
+:root {
+    --white-font: #FFFFFF;
+    --black-font: #000000;
+    /* add in other color variables for color pallete */
+}
+
+.primary-container {
+    max-width: 72em;
+    margin: 0 auto;
+}
+
+.banner2-image {
+    width: 100%;
+}
+
+.section1-image {
+    width: 100%;
+}
+
+.essay-image {
+    width: 100%;
+}
+
+.primary-container {
+    display: grid;
+    column-gap: 1em;
+}
