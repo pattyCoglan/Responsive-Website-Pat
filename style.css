@@ -337,6 +337,45 @@ media queries for progressively bigger screen widths
     " .    .    .    .  " minmax(2em, auto)
     "g4d  g4d  g4d  g4d " minmax(22em, auto)
     " .    .    .    .  " minmax(2em, auto)
-    "rfl  rfl  rfl  rfl " minmax(100em, auto)
+    "rfl  rfl  rfl  rfl " minmax(116em, auto)
 }
 
+@media (min-width: 50em) {
+    .primary-container {
+            /* TODO: setup the grid-template for tablet layout */
+        grid-template:
+        "ban1 ban1 ban1 ban1 ban1 ban2 ban2 ban2" minmax(16em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(4em, auto)
+        "s1i  s1i  s1i  s1i  s1d  s1d  s1d  s1d " minmax(38em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "i3   i3   i3   i3   i2   i2   i2   i2  " minmax(18em, auto)
+        "i3   i3   i3   i3    .    .    .    .  " minmax(2em, auto)
+        "i3   i3   i3   i3   i1   i1   i1   i1  " minmax(16em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "g1d  g1d  g1d  g1d  g1d  gd1  gd1  gd1 " minmax(16em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        " .   i4   i4   i4   i5   i5   i5    .  " minmax(22em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d " minmax(14em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "i7   i7    i7   i7  g3d  g3d  g3d  g3d " minmax(14em, auto)
+        " .    .    .    .   g3d  g3d  g3d  g3d " minmax(2em, auto)
+        "i8   i8    i8   i8  g3d  g3d  g3d  g3d " minmax(14em, auto)
+        " .    .    .    .   g3d  g3d  g3d  g3d " minmax(2em, auto)
+        "i9   i9    i9   i9  g3d  g3d  g3d  g3d " minmax(14em, auto)
+        " .    .    .    .   g3d  g3d  g3d  g3d " minmax(2em, auto)
+        "i10  i10  i10  i10  g3d  g3d  g3d  g3d " minmax(14em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(4em, auto)
+        "i11  i11  i11  i11  i12  i12  i12  i12 " minmax(12em, auto)
+        " .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        " .   g4d  g4d  g4d  g4d  g4d  g4d   .  " minmax(18em, auto) /* how to make spaces on left and right to make it center */
+        " .    .    .    .    .    .    .    .  " minmax(4em, auto)
+        "rfl  rfl  rfl  rfl  rfl  rfl  rfl  rfl " minmax(78em, auto) 
+    } 
+}
+
+@media (min-width: 75em) {
+    .primary-container {
+        /* TODO: setup the grid-template for desktop layout */
+    }
+}
