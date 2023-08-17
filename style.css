@@ -27,14 +27,6 @@ body {
     column-gap: 1em;
 }
 
-.banner1 {
-    background-color: var(--gray-brown);
-    color: var(--white-font);
-    text-align: center;
-    border-radius: 0em 0em 1em 1em;
-    padding: 1em 1.5em;
-}
-
 .essay-title {
     font-family: Kavoon;
     font-size: 2.5em;
@@ -51,6 +43,14 @@ body {
     height: 100%;
     border-radius: 1em;
     object-fit: cover;
+}
+
+.banner1 {
+    background-color: var(--gray-brown);
+    color: var(--white-font);
+    text-align: center;
+    border-radius: 0em 0em 1em 1em;
+    padding: 1em 1.5em;
 }
 
 .banner2 {
@@ -102,7 +102,6 @@ body {
 
 #gridTitlesBold {
     font-weight: bold;
-    margin-bottom: 1.5em;
 }
 
 .grid-paragraph {
@@ -305,5 +304,27 @@ media queries for progressively bigger screen widths
 @media (min-width: 75em) {
     .primary-container {
         /* TODO: setup the grid-template for desktop layout */
+        grid-template:
+        "ban1 ban1 ban1 ban1 ban1 ban1 ban1 ban1 ban2 ban2 ban2 ban2" minmax(16em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(4em, auto)
+        "s1i  s1i  s1i  s1i  s1i  s1i  s1d  s1d  s1d  s1d  s1d  s1d " minmax(34em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "i1   i1   i1   i1   i2   i2   i2   i2   i3   i3   i3   i3  " minmax(18em, auto)
+        " .    .    .    .    .    .    .    .   i3   i3   i3   i3  " minmax(2em, auto)
+        "g1d  g1d  g1d  g1d  g1d  g1d  g1d  g1d  i3   i3   i3   i3  " minmax(16em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        " i4   i4   i4   i4   i4   i4   i5   i5   i5   i5   i5   i5 " minmax(36em, auto) /* center it - remove the dots on the 1st and 8th spot but it doesnt work? */
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(4em, auto)
+        "g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d " minmax(10em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "i7   i7    i7  i7  i8  i8  i8  i8  i8   g3d  g3d  g3d  g3d " minmax(22em, auto)
+        " .    .    .    .    .    .    .    .   g3d  g3d  g3d  g3d " minmax(2em, auto)
+        "i9   i9    i9  i9   i10  i10  i10  i10  g3d  g3d  g3d  g3d " minmax(22em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(6em, auto)
+        "i11  i11  i11  i11  i11  i11  i12  i12  i12  i12  i12  i12 " minmax(18em, auto)
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
+        "g4d  g4d  g4d  g4d  g4d  g4d  g4d  g4d  g4d  g4d  g4d  g4d " minmax(16em, auto) /* how to make spaces on left and right to make it center 1st and 8th spot */
+        " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(4em, auto)
+        "rfl  rfl  rfl  rfl  rfl  rfl  rfl  rfl  rfl  rfl  rfl  rfl " minmax(56em, auto);
     }
 }
