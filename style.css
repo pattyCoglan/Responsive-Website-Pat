@@ -313,11 +313,11 @@ media queries for progressively bigger screen widths
         " .    .    .    .    .    .    .    .   i3   i3   i3   i3  " minmax(2em, auto)
         "g1d  g1d  g1d  g1d  g1d  g1d  g1d  g1d  i3   i3   i3   i3  " minmax(16em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
-        " i4   i4   i4   i4   i4   i4   i5   i5   i5   i5   i5   i5 " minmax(36em, auto) /* center it - remove the dots on the 1st and 8th spot but it doesnt work? */
+        "i4   i4   i4   i4   i4   i4   i5   i5   i5   i5   i5   i5  " minmax(36em, auto) /* center it - remove the dots on the 1st and 8th spot but it doesnt work? */
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(4em, auto)
         "g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d  g2d " minmax(10em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(2em, auto)
-        "i7   i7    i7  i7  i8  i8  i8  i8  i8   g3d  g3d  g3d  g3d " minmax(22em, auto)
+        "i7   i7   i7   i7   i8   i8   i8   i8   g3d  g3d  g3d  g3d " minmax(22em, auto)
         " .    .    .    .    .    .    .    .   g3d  g3d  g3d  g3d " minmax(2em, auto)
         "i9   i9    i9  i9   i10  i10  i10  i10  g3d  g3d  g3d  g3d " minmax(22em, auto)
         " .    .    .    .    .    .    .    .    .    .    .    .  " minmax(6em, auto)
